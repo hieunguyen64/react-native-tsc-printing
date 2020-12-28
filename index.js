@@ -18,6 +18,7 @@ export default class TscPrint{
         return new Promise((resolve, reject)=>{
             this.PrinterInstance.executePrint(this.config , this.listCommand).then(()=>{
                 this.listCommand = [] ;
+                resolve()
             }).catch(e=>reject(e));
         })
     }
