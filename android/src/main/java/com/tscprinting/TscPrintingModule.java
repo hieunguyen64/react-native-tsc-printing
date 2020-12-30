@@ -461,7 +461,6 @@ public class TscPrintingModule extends ReactContextBaseJavaModule {
 
                 instance.sendcommand(String.format(Locale.US, "DIAGONAL %f,%f,%f,%f,4\n", 42 * widthRatio,
                                 375 * heightRatio, 790 * widthRatio, 375 * heightRatio));
-                                375 * heightRatio, 790 * widthRatio, 375 * heightRatio));
                 instance.sendcommand(String.format(Locale.US, "DIAGONAL %f,%f,%f,%f,4\n", 485 * widthRatio,
                                 490.5 * heightRatio, 790 * widthRatio, 490.5 * heightRatio));
                 instance.sendcommand(String.format(Locale.US, "DIAGONAL %f,%f,%f,%f,4\n", 42 * widthRatio,
