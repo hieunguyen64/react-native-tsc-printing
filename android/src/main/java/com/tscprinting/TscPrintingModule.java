@@ -461,7 +461,6 @@ public class TscPrintingModule extends ReactContextBaseJavaModule {
 
                 instance.sendcommand(String.format(Locale.US, "DIAGONAL %f,%f,%f,%f,4\n", 42 * widthRatio,
                                 375 * heightRatio, 790 * widthRatio, 375 * heightRatio));
-                                Log.v("ReactNative", String.format(Locale.US, "DIAGONAL %f,%f,%f,%f,4\n", 42 * widthRatio,
                                 375 * heightRatio, 790 * widthRatio, 375 * heightRatio));
                 instance.sendcommand(String.format(Locale.US, "DIAGONAL %f,%f,%f,%f,4\n", 485 * widthRatio,
                                 490.5 * heightRatio, 790 * widthRatio, 490.5 * heightRatio));
@@ -496,7 +495,6 @@ public class TscPrintingModule extends ReactContextBaseJavaModule {
                                         for(int i = 0; i < data2.size(); i++){
                                                 String command = data2.getString(i);
                                                 instance.sendcommand(command);
-                                                Log.v("ReactNative", command + "212121212");
                                         }
                                         promise2.resolve("success2");
 
