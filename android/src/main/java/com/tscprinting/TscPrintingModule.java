@@ -475,8 +475,8 @@ public class TscPrintingModule extends ReactContextBaseJavaModule {
 
         @ReactMethod
         public void executePrint(ReadableMap config, ReadableArray listCmd, Promise promise) {
-                
-                final TscWifiActivity instance = new TscWifiActivity();
+//                final TscWifiActivity instance = new TscWifiActivity();
+                final tscOverrideClass instance = new tscOverrideClass();
                 final ReadableMap config2 = config;
                 final ReadableArray data2 = listCmd;
                 final Promise promise2 = promise;
